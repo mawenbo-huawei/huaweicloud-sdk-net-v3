@@ -15,4 +15,4 @@ jobs:
     - name: Build
       run: dotnet build
     - name: Test
-      run: dotnet test Test/Test.csproj --verbosity normal
+      run: dotnet test Test/Test.csproj --logger:"console;verbosity=detailed"
