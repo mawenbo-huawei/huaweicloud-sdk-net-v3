@@ -12,6 +12,8 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '2.1.x'
+    - name: Version
+      run: dotnet --version
     - name: Build
       run: dotnet build
     - name: Test
