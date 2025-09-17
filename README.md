@@ -6,6 +6,11 @@ English | [简体中文](README_CN.md)
 
 <h1 align="center">Huawei Cloud .Net Software Development Kit (.Net SDK)</h1>
 
+[![Multi-Target Framework](https://img.shields.io/badge/Targets-.NET%20Standard%202.0%20|%20.NET%20Framework%204.6.2%2B%20|%20.NET%20%205.0%2B-512BD4?logo=dotnet)](https://docs.microsoft.com/en-us/dotnet/standard/frameworks)
+![NuGet Version](https://img.shields.io/nuget/v/HuaweiCloud.SDK.Core)
+![License](https://img.shields.io/badge/license-Apache--2.0-green)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/huaweicloud/huaweicloud-sdk-net-v3)
+
 The Huawei Cloud .Net SDK allows you to easily work with Huawei Cloud services such as Elastic Compute Service (ECS) and
 Virtual Private Cloud(VPC) without the need to handle API related tasks.
 
@@ -21,7 +26,7 @@ This document introduces how to obtain and use Huawei Cloud .Net SDK.
   service in [Huawei Cloud console](https://console.huaweicloud.com/?locale=en-us) if needed.
 
 - The .NET SDK requires：
-  - **.NET and .NET Core 2.0** or above
+  - **.NET 5.0** or above
   - **.NET Framework 4.6.2** or above
 
 For more version maintenance information, please refer to **Lifecycle FAQ** - [.NET Core](https://learn.microsoft.com/en-us/lifecycle/faq/dotnet-core), [.NET Framework](https://learn.microsoft.com/en-us/lifecycle/faq/dotnet-framework)
